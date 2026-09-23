@@ -1,0 +1,5 @@
+.document-dialog{width:min(1200px,96vw);max-width:96vw}
+.document-dialog #detail-content>p{margin-bottom:16px}
+.document-dialog .detail-actions{margin:16px 0;align-items:center}
+.pdf-reader{display:block;width:100%;height:70vh;height:70dvh;min-height:420px;border:1px solid #d9dce4;border-radius:8px;background:#eef0f5}
+@media(max-width:600px){.document-dialog{padding:16px}.pdf-reader{height:68dvh;min-height:360px}}
