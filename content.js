@@ -20,6 +20,8 @@ window.PORTFOLIO_ITEMS = [
    { name: '深海下沉', group: '动画素材', src: 'assets/gallery/deep-sea-sinking.gif', scene: true },
    { name: '序章 1', group: '动画素材', src: 'assets/gallery/prologue-1.gif', scene: true }
  ] },
- { id: 'gluttony', type: 'game', title: '暴食阿姆', subtitle: '模拟经营 × 回合制 RPG × 肉鸽探索', label: 'GAME / 独立游戏', status: '开发中', cover: 'island', url: '', description: '以美食、烹饪与生存抉择为核心的像素游戏。通过经营、上贡和地牢探索，建立互相影响的资源与成长循环。' },
- { id: 'gluttony-design', type: 'document', title: '《暴食阿姆》游戏策划案', subtitle: '在线阅读 · 玩法循环、系统规则与开发规划', label: 'DOCUMENT / 设计文档', status: 'PDF · 可在线阅读', cover: 'document', kind: 'pdf', url: 'assets/gluttony-design.pdf', description: '《暴食阿姆》的设计文档，包含核心循环、经营与战斗系统、角色设定和开发规划。无需另行下载，直接翻页阅读。文档中的部分内容仍处于规划阶段，以当前游戏版本为准。' }
+ { id: 'gluttony', type: 'game', title: '暴食阿姆', subtitle: '模拟经营 × 回合制 RPG × 肉鸽探索', label: 'GAME / 独立游戏', status: '开发中', cover: 'island', url: '', trailer: 'assets/gluttony-trailer.mp4', description: '以美食、烹饪与生存抉择为核心的像素游戏。通过经营、上贡和地牢探索，建立互相影响的资源与成长循环。' },
+ { id: 'gluttony-trailer', type: 'video', kind: 'video', title: '《暴食岛》游戏宣传片', subtitle: '《暴食阿姆》项目 · 游戏宣传视频', label: 'VIDEO / 宣传片', status: '在线播放', cover: 'assets/gluttony-trailer-poster.jpg', url: 'assets/gluttony-trailer.mp4', description: '《暴食岛》（暴食阿姆）游戏宣传片。点击播放，观看游戏画面与玩法展示。' },
+ { id: 'resume', type: 'document', title: '陈乐琦简历', subtitle: '个人履历 · 游戏策划与技术策划方向', label: 'RESUME / 个人简历', status: 'PDF · 可在线阅读', cover: 'resume', kind: 'pdf', url: 'assets/chen-leqi-resume.pdf', description: '陈乐琦的个人简历，整理教育经历、项目经历、技能方向与作品集入口。可在线阅读，也可下载 PDF。' },
+ { id: 'gluttony-design', type: 'document', title: '《暴食阿姆》游戏策划案', subtitle: '在线阅读 · 玩法循环、系统规则与开发规划', label: 'DOCUMENT / 设计文档', status: 'PDF · 新版可在线阅读', cover: 'document', kind: 'pdf', url: 'assets/gluttony-design.pdf', description: '《暴食阿姆》的新版设计文档，包含核心循环、经营与战斗系统、角色设定和开发规划。无需另行下载，直接翻页阅读。文档中的部分内容仍处于规划阶段，以当前游戏版本为准。' }
 ];
