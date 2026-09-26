@@ -6,8 +6,11 @@ openProject = function(id) {
  if (item?.kind !== 'pdf') {
   previousProjectView(id);
   if (item?.type === 'game') {
-   const link = document.querySelector('#detail-content .detail-actions a');
-   if (link) { link.href = '#project=gluttony-design'; link.removeAttribute('download'); link.textContent = '在线阅读游戏策划案 ↗'; }
+   const actions = document.querySelector('#detail-content .detail-actions');
+   const packageURL = safeURL(item.url);
+   if (actions) actions.innerHTML = packageURL
+    ? `<a class="primary" href="${escapeHTML(packageURL)}" download>下载游戏安装包 ↓</a>`
+    : '<span class="unavailable">游戏安装包暂未提供</span>';
   }
   return;
  }
