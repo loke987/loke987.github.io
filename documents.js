@@ -19,7 +19,7 @@ openProject = function(id) {
    const actions = document.querySelector('#detail-content .detail-actions');
    const packageURL = safeURL(item.url);
    if (actions) actions.innerHTML = packageURL
-    ? `<a class="primary" href="${escapeHTML(packageURL)}" download>下载游戏安装包 ↓</a>`
+    ? `<a class="primary" href="${escapeHTML(packageURL)}" download>下载游戏体验 DEMO ↓</a>`
     : '<span class="unavailable">游戏安装包暂未提供</span>';
   }
   if (item?.id === 'gluttony-trailer') {
